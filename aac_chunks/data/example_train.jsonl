@@ -1,0 +1,10 @@
+{"dialog_id":"c1","situation":"cafe","staff_utterance":"안녕하세요, 주문 도와드릴까요?","selected_chunks":["<START>"],"next_chunk":"아이스"}
+{"dialog_id":"c1","situation":"cafe","staff_utterance":"어떤 음료로 드릴까요?","selected_chunks":["<START>","아이스"],"next_chunk":"아메리카노"}
+{"dialog_id":"c1","situation":"cafe","staff_utterance":"테이크아웃이신가요?","selected_chunks":["<START>","아이스","아메리카노"],"next_chunk":"테이크아웃"}
+{"dialog_id":"c1","situation":"cafe","staff_utterance":"결제 도와드릴게요","selected_chunks":["<START>","아이스","아메리카노","테이크아웃"],"next_chunk":"카드"}
+{"dialog_id":"c1","situation":"cafe","staff_utterance":"잠시만 기다려 주세요","selected_chunks":["<START>","아이스","아메리카노","테이크아웃","카드"],"next_chunk":"<END>"}
+{"dialog_id":"c2","situation":"cafe","staff_utterance":"안녕하세요","selected_chunks":["<START>"],"next_chunk":"따뜻한"}
+{"dialog_id":"c2","situation":"cafe","staff_utterance":"음료는요?","selected_chunks":["<START>","따뜻한"],"next_chunk":"카페라떼"}
+{"dialog_id":"c2","situation":"cafe","staff_utterance":"매장에서 드시나요?","selected_chunks":["<START>","따뜻한","카페라떼"],"next_chunk":"매장"}
+{"dialog_id":"c2","situation":"cafe","staff_utterance":"결제는요?","selected_chunks":["<START>","따뜻한","카페라떼","매장"],"next_chunk":"페이"}
+{"dialog_id":"c2","situation":"cafe","staff_utterance":"감사합니다","selected_chunks":["<START>","따뜻한","카페라떼","매장","페이"],"next_chunk":"<END>"}

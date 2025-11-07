@@ -1,0 +1,21 @@
+{
+  "domain": "cafe",
+  "slots": {
+    "temperature": ["아이스", "따뜻한"],
+    "menu": ["아메리카노", "카페라떼", "카푸치노", "아이스티", "녹차"],
+    "place": ["테이크아웃", "매장"],
+    "payment": ["카드", "현금", "페이"],
+    "end": ["주문할게요", "가져갈게요", "<END>"]
+  },
+  "slot_flow": {
+    "<START>": ["temperature"],
+    "temperature": ["menu"],
+    "menu": ["place"],
+    "place": ["payment", "end"],
+    "payment": ["end"]
+  },
+  "special_values": [
+    "<START>",
+    "<END>"
+  ]
+}

@@ -1,0 +1,47 @@
+{"dialog_id":"t1","situation":"cafe","staff_utterance":"안녕하세요, 주문 도와드릴까요?","selected_chunks":["<START>"],"next_chunk":"아이스"}
+{"dialog_id":"t1","situation":"cafe","staff_utterance":"어떤 음료 드릴까요?","selected_chunks":["<START>","아이스"],"next_chunk":"라떼"}
+{"dialog_id":"t1","situation":"cafe","staff_utterance":"드시고 가세요?","selected_chunks":["<START>","아이스","라떼"],"next_chunk":"매장"}
+{"dialog_id":"t1","situation":"cafe","staff_utterance":"결제는 어떻게 하시나요?","selected_chunks":["<START>","아이스","라떼","매장"],"next_chunk":"카드"}
+{"dialog_id":"t1","situation":"cafe","staff_utterance":"잠시만 기다려 주세요","selected_chunks":["<START>","아이스","라떼","매장","카드"],"next_chunk":"<END>"}
+
+{"dialog_id":"t2","situation":"cafe","staff_utterance":"어서오세요","selected_chunks":["<START>"],"next_chunk":"따뜻한"}
+{"dialog_id":"t2","situation":"cafe","staff_utterance":"어떤 메뉴로 도와드릴까요?","selected_chunks":["<START>","따뜻한"],"next_chunk":"아메리카노"}
+{"dialog_id":"t2","situation":"cafe","staff_utterance":"사이즈는 어떻게 하시나요?","selected_chunks":["<START>","따뜻한","아메리카노"],"next_chunk":"라지"}
+{"dialog_id":"t2","situation":"cafe","staff_utterance":"결제 도와드릴게요","selected_chunks":["<START>","따뜻한","아메리카노","라지"],"next_chunk":"현금"}
+{"dialog_id":"t2","situation":"cafe","staff_utterance":"감사합니다","selected_chunks":["<START>","따뜻한","아메리카노","라지","현금"],"next_chunk":"<END>"}
+
+{"dialog_id":"t3","situation":"restaurant","staff_utterance":"몇 분이세요?","selected_chunks":["<START>"],"next_chunk":"2명"}
+{"dialog_id":"t3","situation":"restaurant","staff_utterance":"물은 드릴까요?","selected_chunks":["<START>","2명"],"next_chunk":"찬물"}
+{"dialog_id":"t3","situation":"restaurant","staff_utterance":"주문 도와드릴까요?","selected_chunks":["<START>","2명","찬물"],"next_chunk":"김치찌개"}
+{"dialog_id":"t3","situation":"restaurant","staff_utterance":"추가로 필요하신 건요?","selected_chunks":["<START>","2명","찬물","김치찌개"],"next_chunk":"밥추가"}
+{"dialog_id":"t3","situation":"restaurant","staff_utterance":"잠시만 기다려 주세요","selected_chunks":["<START>","2명","찬물","김치찌개","밥추가"],"next_chunk":"<END>"}
+
+{"dialog_id":"t4","situation":"restaurant","staff_utterance":"자리 안내해드릴게요","selected_chunks":["<START>"],"next_chunk":"1명"}
+{"dialog_id":"t4","situation":"restaurant","staff_utterance":"식사 메뉴 보시겠어요?","selected_chunks":["<START>","1명"],"next_chunk":"돈까스"}
+{"dialog_id":"t4","situation":"restaurant","staff_utterance":"맵기 조절하시나요?","selected_chunks":["<START>","1명","돈까스"],"next_chunk":"보통"}
+{"dialog_id":"t4","situation":"restaurant","staff_utterance":"음료는요?","selected_chunks":["<START>","1명","돈까스","보통"],"next_chunk":"콜라"}
+{"dialog_id":"t4","situation":"restaurant","staff_utterance":"주문 완료되었습니다","selected_chunks":["<START>","1명","돈까스","보통","콜라"],"next_chunk":"<END>"}
+
+{"dialog_id":"t5","situation":"hospital","staff_utterance":"어디가 불편하세요?","selected_chunks":["<START>"],"next_chunk":"배"}
+{"dialog_id":"t5","situation":"hospital","staff_utterance":"언제부터 아프셨나요?","selected_chunks":["<START>","배"],"next_chunk":"이틀전"}
+{"dialog_id":"t5","situation":"hospital","staff_utterance":"통증 정도는요?","selected_chunks":["<START>","배","이틀전"],"next_chunk":"조금아파요"}
+{"dialog_id":"t5","situation":"hospital","staff_utterance":"신분증 확인할게요","selected_chunks":["<START>","배","이틀전","조금아파요"],"next_chunk":"신분증"}
+{"dialog_id":"t5","situation":"hospital","staff_utterance":"접수 도와드릴게요","selected_chunks":["<START>","배","이틀전","조금아파요","신분증"],"next_chunk":"<END>"}
+
+{"dialog_id":"t6","situation":"hospital","staff_utterance":"어떤 증상으로 오셨나요?","selected_chunks":["<START>"],"next_chunk":"기침"}
+{"dialog_id":"t6","situation":"hospital","staff_utterance":"열은 있으세요?","selected_chunks":["<START>","기침"],"next_chunk":"없어요"}
+{"dialog_id":"t6","situation":"hospital","staff_utterance":"언제부터인가요?","selected_chunks":["<START>","기침","없어요"],"next_chunk":"어제"}
+{"dialog_id":"t6","situation":"hospital","staff_utterance":"보험증 있으신가요?","selected_chunks":["<START>","기침","없어요","어제"],"next_chunk":"보험증"}
+{"dialog_id":"t6","situation":"hospital","staff_utterance":"잠시만 기다려 주세요","selected_chunks":["<START>","기침","없어요","어제","보험증"],"next_chunk":"<END>"}
+
+{"dialog_id":"t7","situation":"convenience_store","staff_utterance":"어서오세요","selected_chunks":["<START>"],"next_chunk":"담배"}
+{"dialog_id":"t7","situation":"convenience_store","staff_utterance":"어떤 번호요?","selected_chunks":["<START>","담배"],"next_chunk":"레종블루"}
+{"dialog_id":"t7","situation":"convenience_store","staff_utterance":"봉투 필요하세요?","selected_chunks":["<START>","담배","레종블루"],"next_chunk":"필요없어요"}
+{"dialog_id":"t7","situation":"convenience_store","staff_utterance":"결제는요?","selected_chunks":["<START>","담배","레종블루","필요없어요"],"next_chunk":"카드"}
+{"dialog_id":"t7","situation":"convenience_store","staff_utterance":"감사합니다","selected_chunks":["<START>","담배","레종블루","필요없어요","카드"],"next_chunk":"<END>"}
+
+{"dialog_id":"t8","situation":"convenience_store","staff_utterance":"안녕하세요","selected_chunks":["<START>"],"next_chunk":"도시락"}
+{"dialog_id":"t8","situation":"convenience_store","staff_utterance":"데워드릴까요?","selected_chunks":["<START>","도시락"],"next_chunk":"네"}
+{"dialog_id":"t8","situation":"convenience_store","staff_utterance":"포크 필요하세요?","selected_chunks":["<START>","도시락","네"],"next_chunk":"필요해요"}
+{"dialog_id":"t8","situation":"convenience_store","staff_utterance":"결제 방법은요?","selected_chunks":["<START>","도시락","네","필요해요"],"next_chunk":"페이"}
+{"dialog_id":"t8","situation":"convenience_store","staff_utterance":"잠시만 기다려주세요","selected_chunks":["<START>","도시락","네","필요해요","페이"],"next_chunk":"<END>"}

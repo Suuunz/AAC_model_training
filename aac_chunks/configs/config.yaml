@@ -1,0 +1,33 @@
+project:
+  seed: 42
+
+data:
+  train_file: "aac_chunks/data/train.jsonl"
+  valid_file: "aac_chunks/data/valid.jsonl" # 데모용. 실제로는 분리하세요.
+  ontology_file: "aac_chunks/ontology/cafe.json"
+  max_length: 192
+  situation_token: "[SIT]"
+  context_sep_token: "[CTX]"
+
+model:
+  base_model_name: "klue/roberta-base"
+  output_dir: "outputs/my_cafe_model_v1"
+
+train:
+  overwrite_output_dir: true
+  report_to: "none"
+  num_train_epochs: 5
+  learning_rate: 5.0e-5
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 32
+  fp16: true
+  logging_steps: 50
+  eval_steps: 200
+  save_steps: 200
+  save_total_limit: 2
+  load_best_model_at_end: true
+  metric_for_best_model: "eval_top1_accuracy_unconstrained"
+  greater_is_better: true
+
+inference:
+  top_k: 5

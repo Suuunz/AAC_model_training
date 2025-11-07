@@ -1,0 +1,22 @@
+# PyTorch
+torch
+
+# Hugging Face
+transformers
+datasets
+accelerate
+
+# ML/Data
+scikit-learn
+numpy
+
+# Config & API
+pydantic
+pydantic-settings
+pyyaml
+fastapi
+uvicorn[standard]
+
+# Utilities
+rich
+tqdm
